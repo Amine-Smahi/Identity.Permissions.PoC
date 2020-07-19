@@ -6,7 +6,7 @@ By default Identity provides  two types of authorization
 
 This solution attempts to hack the claims system provided by identity to make it store permissions By using :
 - The user claims to store custom permissions
-- Role claims to store each roles  specific permissions.
+- Role claims to store each role  specific permissions.
 - Use custom filter for Controllers/ApiControllers like this
 
         [HasPermissionForAction(Permission = Permissions.CanRead, Entity = Entities.About)]
