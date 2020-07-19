@@ -3,6 +3,7 @@ The goal is to create a permissions based authorization solution with roles.
 By default Identity provides  two types of authorization 
 - Policy based
 - Roles based
+
 This solution attempts to hack the claims system provided by identity to make it store permissions By using :
 - The user claims to store custom permissions
 - Role claims to store each roles  specific permissions.
